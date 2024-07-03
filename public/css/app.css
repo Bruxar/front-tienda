@@ -380,6 +380,25 @@ form .campo input[readonly] {
     flex:  0 0 100%;
     margin-bottom: 2rem;
 }
+
+/*Ajustes Sweet Alert */
+.swal2-popup .swal2-title {
+    font-size: 3rem!important;
+}
+.swal2-popup #swal2-content {
+    font-size: 2rem;
+}
+.swal2-confirm,
+.swal2-cancel {
+    font-size: 2rem!important;
+    padding: 1rem 3rem;
+}
+
+.swal2-popup.swal2-modal{
+    padding: 4rem;
+    width: 60rem;
+}
+
 .contenedor-cantidad i {
     flex: 0 0 4rem;
     height: 4.2rem;
